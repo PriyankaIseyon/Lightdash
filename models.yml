@@ -1,0 +1,32 @@
+models:
+-name: customers
+columns:
+-name: customer_id
+-name: first_name
+-name: last_name
+-name: email
+-name: phone
+-name: address
+models:
+-name: order_items
+columns:
+-name: order_item_id
+-name: order_id
+-name: product_id
+-name: quantity
+-name: unit_price
+models:
+-name: orders
+columns:
+-name: order_id
+-name: customer_id
+-name: order_date
+-name: total_amount
+models:
+-name: product
+columns:
+-name: product_id
+-name: product_name
+-name: category
+-name: price
+-name: stock_quantity
